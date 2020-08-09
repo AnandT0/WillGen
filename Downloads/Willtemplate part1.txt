@@ -1,0 +1,47 @@
+				
+WILL and Last testament   
+
+A.General 
+I, ${name},    residing at ${ address } , ${religion} by religion, do hereby revoke all my previous Wills (or) Codicils and declare that this is my last Will for assets in India , which I make on this  date the   ${ todays_date }. 
+%if assets_outside_india == 'yes':
+This will is solely in respect of my assets in India and should co- exist with wills made for assets outside India, irrespective of when those wills have been made.
+%endif
+I declare that I am in good health and possess a sound mind. This Will is made by me without any persuasion or coercion and out of my own independent decision only. This will has been drafted on my instructions and I have read and completely understood the contents of this will. After being satisfied, I have subscribed my signature to this last will and testament.   
+B.Personal details
+1.My date of birth is ${ dob } .
+% if PanNo:
+My Pan No is ${PanNo}.
+% endif
+
+% if AadharNo:
+My aadhar no is ${aadharNo}
+% endif
+
+
+2.
+%if marriage_status =='no'
+I am not married and I have never been married.
+
+% endif
+
+%if marriage_status == 'yes'
+I am married to ${Name_of_Spouse}, who I will refer to as my spouse. 
+%if spouse_dob :
+My spouse's  date of birth is ${spouse_dob}.
+%endif
+
+%if spouse_aadharno:
+My spouse's aadhar no is ${ spouse_aadharno}.
+%endif 
+%endif
+
+%if previouslymarried=='yes':
+I was previously married . 
+%if name_of_previous_spouse :
+The name of my previous spouse is ${Name_of_previous_spouse}. 
+%Endif
+%if year_previous_marriage_ended :
+My previous marriage ended in ${year_previous_marraige_ended}.
+%Endif
+ 
+%endif

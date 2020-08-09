@@ -1,0 +1,18 @@
+<title>Personal Information Form</title>
+        	 	<link rel="stylesheet" media="screen" href="static/bootstrap.min.css">
+        	 	<link rel="stylesheet" href="static/bootstrap-theme.min.css">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<div class="container">
+<h2>Personal Information</h2>
+
+{% block content %}
+<div class="formwrapper">
+  <h2 class="title">Customer Information Part-2</h2>
+  <form method="POST" action="{{url_for('CustInfo2')}}">
+    {%for i in range(noOfChild)%}
+      <div class="form-field">{{ form.name[i].label }} {{ form.name[i](size=20) }}</div>
+      {{ form.submit }}
+      {%endfor%}
+  </form>
+</div>
+{% endblock %}

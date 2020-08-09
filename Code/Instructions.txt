@@ -1,0 +1,94 @@
+Instructions for the use of the program-
+
+	-This program works with Text or HTML files. For the use of HTML, the file must 	be created as a HTML file directly and not by converting it from a Word 	document, etc.
+	-The dataset, which must be kept in the .csv file can be made by any method,		such as Google Sheets, Excel or Text file. 
+	
+	-Samples for Text file, HTML file, supporting function file, CSV file and 	output have been attached
+___________________________________________________________________________________
+THE FOLLOWING IS SYNTAX, IF YOU ALREADY KNOW THE SYNTAX, THEN YOU DONT NEED TO READ IT  
+___________________________________________________________________________________
+Input requirements:
+
+	1 Text/HTML file
+	1 CSV file
+	Optional - 1 functions file, in either HTML or Text format
+___________________________________________________________________________________
+Output:
+
+	1 file named "output.txt" or "output.html" depending on the input file		(.txt/.html)
+___________________________________________________________________________________
+Syntax and Guidlines:
+
+1.For Text file based template
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+(a)For simple lables or tags-
+			     ${tag_name}
+
+	-tag_name can have any numbers, letters (upper or lower) or underscore ( _ ).
+	-tag_name is case sensitive and must not have any spaces.
+	-If the tag_name is used in the template, then it MUST be passed by the CSV.
+	-If the tag must be optional, then a default value of '' ie. a blank word must		be kept in place, when not used.
+	-Non-tag data must not be enclosed by '${}'.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+(b)Function call-
+		 ${function_name()}
+
+	-Rules for tag_name hold for the function_name, with the only difference being 
+	that the function_name must always end with a '()'.
+	-If the function is called, the code that was written in the definition will 		the location of the function call.
+	-The name in the function call must be exactly the same as the corresponding		function definition.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+(c)Function definition-
+		       <%def name="function_name()">
+			Function_body ...
+			...
+		       </%def>
+		       
+	-It is advised to define the functions in a seperate functions file, to make		for a cleaner template.
+	-Function_body can have any text, numbers, symbols or spaces except for		triangle brackets('<' and '>').
+	-</%def> terminates the function and must be used at the end of the		Function_body.
+	-A labels, tags or conditional statements can also be used put in a		Function_body.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+(d)Conditional statements-
+			  % if (Condition):
+			  Condition_body ...
+			  ...
+			  % endif
+
+	-This statement is used if the condition body must only be pasted if a certain		condition is satisfied specified in the (Condition).
+	-(Condition) may be a real value compared to a variable value, with 2 cases
+	
+	(i)If the comparision is done with numbers-
+		
+		-Example: for a statement that is applicable only for ages above 18
+
+		  % if int(age,10) >= 18:
+		  I am a major and I am legal to drive in India.I am also legal to			  vote.
+		  % endif
+
+		-If the age was equal to or above 18, the following would replace it
+		
+		I am a major and I am legal to drive in India.I am also legal to 		  	vote.
+
+	-Comparision with numbers can also be used in the cases of '>', '<', '<=',		'=='(equals), '!='(not equals)
+
+	(ii)If the comparision is done with Strings/Words-
+
+		-In this case we can only check if a certain string is equal or not 		equal to a fixed value
+		
+	(iii)To check the existance of the tag
+	
+		-This is useful for optional data, to display certain information only 		if the data has been provided
+
+		-Example:
+			% if AadharCard:
+			My Aadhar card number is ${AadharCard}
+			%endif
+_________________________________________________________________________________
+
+FOR FURTHER DETAIL, IF NEEDED, PLEASE CONTACT ME
+_________________________________________________________________________________
+
+
+
+

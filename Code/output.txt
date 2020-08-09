@@ -1,0 +1,47 @@
+This is a template created by XYZ ABC, and will be used for
+testing of the program written. As of the day of testing I am
+19. I am a student. My residential address is 123 AAA Street LNM.
+You can contact me at 1234567890.
+
+  I am an adult and legal to drive and am cool and I am a student
+Yours truly,
+this is myfunc, x is 19
+XYZ ABC,
+19
+
+The child name is :Madhav
+The Child's age is:14
+
+The child name is :Anand
+The Child's age is:19
+
+
+Name of the asset: Car
+The Beneficiary named Madhav gets : 30%
+The Beneficiary named Anand gets : 70%
+
+Name of the asset: Bike
+The Beneficiary named Madhav gets : 40%
+The Beneficiary named Anand gets : 60%
+
+Name of the asset: House
+The Beneficiary named Madhav gets : 24%
+The Beneficiary named Anand gets : 66%
+
+
+
+I declare that I am in good health and possess a sound mind.
+This Will is made by me without any persuasion or coercion and
+out of my own independent decision only. This will has been drafted
+on my instructions and I have read and completely understood the contents
+of this will. After being satisfied, I have subscribed my signature to this
+last will and testament.
+
+
+
+
+
+
+
+
+

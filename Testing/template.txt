@@ -1,0 +1,38 @@
+<%namespace file="functions.txt" import="*"/>
+This is a template created by ${ name}, and will be used for
+testing of the program written. As of the day of testing I am
+${age}. I am a ${ title }. My residential address is ${address}.
+You can contact me at ${phno}.
+
+% if age >= 18:
+I am an adult and legal to drive and am cool and ${detail()}
+% endif
+Yours truly,
+${myfunc()}
+${name},
+${age}
+
+% for i in range(NoOfChildren):
+The child name is :${cName[i]}
+The Child's age is:${cAge[i]}
+
+% endfor
+<%doc>
+% for i in range(NoOfAssets):
+Name of Asset:${AssetName[i]}
+
+% for j in range(NoOfChildren):
+The child name is :${cName[j]}
+% endfor
+% endfor
+</%doc>
+
+% for k in AssetDistribution.keys():
+Name of the asset: ${k}
+% for i in range(len(AssetDistribution[k])):
+The Beneficiary named ${cName[i]} gets : ${AssetDistribution[k][i]}%
+% endfor
+
+% endfor
+
+${firstclause()}

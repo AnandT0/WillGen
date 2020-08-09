@@ -1,0 +1,11 @@
+<%def name="detail()">I am a ${title}</%def>
+<%def name='myfunc()'>this is myfunc, x is ${age}</%def>
+
+<%def name='firstclause()' >
+I declare that I am in good health and possess a sound mind.
+This Will is made by me without any persuasion or coercion and
+out of my own independent decision only. This will has been drafted
+on my instructions and I have read and completely understood the contents
+of this will. After being satisfied, I have subscribed my signature to this
+last will and testament.
+</%def>

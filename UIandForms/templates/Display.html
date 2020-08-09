@@ -1,0 +1,21 @@
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" media="screen" href="static/bootstrap.min.css">
+    <link rel="stylesheet" href="static/bootstrap-theme.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Personal Information Details</title>
+  </head>
+  <body>
+
+
+    {%for i in userInfo%}
+      <h3> {%print(userInfo[i])%}  </h3>
+    {%endfor%}
+    <form action="{{url_for('GetNext')}}" method="POST">
+      <button type="submit" class="btn btn-success">Submit</button>
+      </form>
+
+  </body>
+</html>

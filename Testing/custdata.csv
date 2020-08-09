@@ -1,0 +1,13 @@
+string,name,XYZ ABC,,
+int,age,19,,
+string,address,123 AAA Street LNM,,
+string,title,student,,
+int,phno,1234567890,,
+int,NoOfChildren,2,,
+list,cName,Madhav,Anand,
+list,cAge,14,19,
+int,NoOfAssets,3,,
+list,AssetName,Car,Bike,House,
+table,AssetDistribution,Car,30,70
+row,,Bike,40,60
+row,,House,24,66

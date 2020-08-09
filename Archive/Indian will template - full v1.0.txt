@@ -1,0 +1,243 @@
+﻿WILL and Last testament
+
+
+A.General
+I, ${name},    residing at ${address} , ${religion} by religion, do hereby revoke all my previous Wills (or) Codicils and declare that this is my last Will for assets in India , which I make on this  date the   ${todays_date}. 
+//start clause- will in india
+ This will is solely in respect of my assets in India and should co- exist with wills made for assets outside India, irrespective of when those wills have been made.
+//end
+I declare that I am in good health and possess a sound mind. This Will is made by me without any persuasion or coercion and out of my own independent decision only. This will has been drafted on my instructions and I have read and completely understood the contents of this will. After being satisfied, I have subscribed my signature to this last will and testament.
+B.Personal details
+1.My date of birth is ${ dob } .
+// start insert clause- aadhar no /pan no
+My aadhar no/Pan no  is ${ }.
+//end
+2. //Start Insert clause- name of spouse
+I am married to ${Name of Spouse}, who I will refer to as "my spouse",
+//Insert clause- spouse details
+whose details are
+ ${date of birth  } ${aadhar no }.
+//end
+//end
+
+
+OR
+//Start Insert clause – not married
+
+I am not married and I have never been married.
+//end
+
+OR
+//Start Insert clause- name of previous spouse
+I am not currently married but I was previously married to ${Name of Last Spouse} and the marriage ended in ${ year}.
+//insert clause end of marriage .
+
+
+
+
+
+
+
+3. Children.
+ //start insert clause – no children
+I have "NO" living children.
+//end
+
+
+OR
+ //start insert clause –living children
+I have ${ } living children, and their names and details are as follows
+1) ${child 1 },  ${date of birth 1/aadhar 1 }
+2) ${child 2 }, ${date of birth 2/aadhar 2 }
+3)  ${child 3 }, ${date of birth 2/aadhar 3 }
+
+
+
+
+
+
+//end
+
+
+
+
+E. //start – insert clause additional beneficiaries
+The following are the additional beneficiaries of my will
+1. ${Ben 1 },  ${ Dob ( or address) or ( other verification)}.
+2. ${Ben 2}  ,  ${ Dob ( or address) or ( other verification)}.
+3. ${Ben 3}   ,   ${ Dob ( or address) or ( other verification)}.
+
+
+//end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+F.Executor
+I appoint ${ Executor} as Executor of my Will, and if s/he is unable or unwilling to serve, then I name ${ alternate executor} as alternate Executor. My Executor and alternate shall have all powers granted by applicable laws of my state to carry out all provisions of this Will, may use provisions and procedures for the simplified handling of estates, may hold in trust the share of any minor beneficiary until s/he reaches age 18, and shall not be required to post a bond.
+
+The executor who acts  shall be entitled to take  expenses out of ${  XX bank account            } and fees of  ${ Amount or percentage  } out of ${  YY Bank account  }.
+G.Assets
+ Below is a list of assets  which are owned by me, in my own name.
+Properties ( singly owned) or share of jointly owned:
+//Start insert
+List of all assets in asset information sheet
+Name of asset
+	Optional detailed description (address /unique identifier /last 4 digits of account etc )
+	//end
+I.Liabilities
+//Start insert no  liabilities clause
+I have no liabilities.
+//end.
+//Start insert liabilities clause
+I have the following liabilities or I have no liabilities.
+Name of creditor ${                    } , nature of amount due ${  nature of amount due to creditors} .
+//end
+
+
+//start insert beneficiaries clause
+J.Beneficiaries :
+Immoveable properties
+1. I bequeath ${ Prop 1} to  ${ beneficiary 1  }  ${ beneficiary 2} ${beneficiary 3}  ${ ben 4          } ${ ben5} ${ ben 6}  in the below proportion :
+          ${     ratio 1     }   ${ ratio 2}  ${ ratio 3} ${ ratio 4} ${ ratio 5} ${ ratio 6}.
+2)I bequeath ${ Prop 1} to  ${ beneficiary 1  }  ${ beneficiary 2} ${beneficiary 3}  ${ ben 4          } ${ ben5} ${ ben 6}  in the below proportion :
+          ${     ratio 1  }   ${ ratio 2}  ${ ratio 3} ${ ratio 4} ${ ratio 5} ${ ratio 6}.
+Stocks
+1. I bequeath ${ Prop 1} to  ${ beneficiary 1  }  ${ beneficiary 2} ${beneficiary 3}  ${ ben 4          } ${ ben5} ${ ben 6}  in the below proportion :
+          ${     ratio 1     }   ${ ratio 2}  ${ ratio 3} ${ ratio 4} ${ ratio 5} ${ ratio 6}.
+1. I bequeath ${ Prop 1} to  ${ beneficiary 1  }  ${ beneficiary 2} ${beneficiary 3}  ${ ben 4          } ${ ben5} ${ ben 6}  in the below proportion :
+          ${     ratio 1     }   ${ ratio 2}  ${ ratio 3} ${ ratio 4} ${ ratio 5} ${ ratio 6}.
+Mutual funds
+
+
+1. I bequeath ${ Prop 1} to  ${ beneficiary 1  }  ${ beneficiary 2} ${beneficiary 3}  ${ ben 4          } ${ ben5} ${ ben 6}  in the below proportion :
+          ${     ratio 1     }   ${ ratio 2}  ${ ratio 3} ${ ratio 4} ${ ratio 5} ${ ratio 6}.
+2) I bequeath ${ Prop 1} to  ${ beneficiary 1  }  ${ beneficiary 2} ${beneficiary 3}  ${ ben 4          } ${ ben5} ${ ben 6}  in the below proportion :
+          ${     ratio 1     }   ${ ratio 2}  ${ ratio 3} ${ ratio 4} ${ ratio 5} ${ ratio 6}.
+
+
+Banks
+
+
+1. I bequeath ${ Prop 1} to  ${ beneficiary 1  }  ${ beneficiary 2} ${beneficiary 3}  ${ ben 4          } ${ ben5} ${ ben 6}  in the below proportion :
+          ${     ratio 1     }   ${ ratio 2}  ${ ratio 3} ${ ratio 4} ${ ratio 5} ${ ratio 6}.
+1. I bequeath ${ Prop 1} to  ${ beneficiary 1  }  ${ beneficiary 2} ${beneficiary 3}  ${ ben 4          } ${ ben5} ${ ben 6}  in the below proportion :
+          ${     ratio 1     }   ${ ratio 2}  ${ ratio 3} ${ ratio 4} ${ ratio 5} ${ ratio 6}.
+Post office /NSC/Debentures
+1. I bequeath ${ Prop 1} to  ${ beneficiary 1  }  ${ beneficiary 2} ${beneficiary 3}  ${ ben 4          } ${ ben5} ${ ben 6}  in the below proportion :
+          ${     ratio 1     }   ${ ratio 2}  ${ ratio 3} ${ ratio 4} ${ ratio 5} ${ ratio 6}.
+1. I bequeath ${ Prop 1} to  ${ beneficiary 1  }  ${ beneficiary 2} ${beneficiary 3}  ${ ben 4          } ${ ben5} ${ ben 6}  in the below proportion :
+          ${     ratio 1     }   ${ ratio 2}  ${ ratio 3} ${ ratio 4} ${ ratio 5} ${ ratio 6}.
+3)I bequeath ${ Prop 1} to  ${ beneficiary 1  }  ${ beneficiary 2} ${beneficiary 3}  ${ ben 4          } ${ ben5} ${ ben 6}  in the below proportion :
+          ${     ratio 1     }   ${ ratio 2}  ${ ratio 3} ${ ratio 4} ${ ratio 5} ${ ratio 6}.
+4)I bequeath ${ Prop 1} to  ${ beneficiary 1  }  ${ beneficiary 2} ${beneficiary 3}  ${ ben 4          } ${ ben5} ${ ben 6}  in the below proportion :
+          ${     ratio 1     }   ${ ratio 2}  ${ ratio 3} ${ ratio 4} ${ ratio 5} ${ ratio 6}.
+
+
+Lockers/Gold
+1. I bequeath ${ Prop 1} to  ${ beneficiary 1  }  ${ beneficiary 2} ${beneficiary 3}  ${ ben 4          } ${ ben5} ${ ben 6}  in the below proportion :
+          ${     ratio 1     }   ${ ratio 2}  ${ ratio 3} ${ ratio 4} ${ ratio 5} ${ ratio 6}.
+1. I bequeath ${ Prop 1} to  ${ beneficiary 1  }  ${ beneficiary 2} ${beneficiary 3}  ${ ben 4          } ${ ben5} ${ ben 6}  in the below proportion :
+          ${     ratio 1     }   ${ ratio 2}  ${ ratio 3} ${ ratio 4} ${ ratio 5} ${ ratio 6}.
+
+
+
+
+
+Insurance proceeds/Pensions/PPF
+1. I bequeath ${ Prop 1} to  ${ beneficiary 1  }  ${ beneficiary 2} ${beneficiary 3}  ${ ben 4          } ${ ben5} ${ ben 6}  in the below proportion :
+          ${     ratio 1     }   ${ ratio 2}  ${ ratio 3} ${ ratio 4} ${ ratio 5} ${ ratio 6}.
+1. I bequeath ${ Prop 1} to  ${ beneficiary 1  }  ${ beneficiary 2} ${beneficiary 3}  ${ ben 4          } ${ ben5} ${ ben 6}  in the below proportion :
+          ${     ratio 1     }   ${ ratio 2}  ${ ratio 3} ${ ratio 4} ${ ratio 5} ${ ratio 6}.
+Other assets
+1. I bequeath ${ Prop 1} to  ${ beneficiary 1  }  ${ beneficiary 2} ${beneficiary 3}  ${ ben 4          } ${ ben5} ${ ben 6}  in the below proportion :
+          ${     ratio 1     }   ${ ratio 2}  ${ ratio 3} ${ ratio 4} ${ ratio 5} ${ ratio 6}.
+1. I bequeath ${ Prop 1} to  ${ beneficiary 1  }  ${ beneficiary 2} ${beneficiary 3}  ${ ben 4          } ${ ben5} ${ ben 6}  in the below proportion :
+          ${     ratio 1     }   ${ ratio 2}  ${ ratio 3} ${ ratio 4} ${ ratio 5} ${ ratio 6}.
+Residual assets
+1. I bequeath residual assets  to  ${ beneficiary 1  }  ${ beneficiary 2} ${beneficiary 3}  ${ ben 4          } ${ ben5} ${ ben 6}  in the below proportion :
+          ${     ratio 1     }   ${ ratio 2}  ${ ratio 3} ${ ratio 4} ${ ratio 5} ${ ratio 6}.
+//end
+
+
+
+
+//start insert expenses
+K. Expenses
+.My expenses should be settled out of   ${  account for expenses/creditors               }
+//end
+//Start insert creditors
+L.Creditors
+My creditors should be paid out of ${    account for expenses/creditors    }.
+//end
+//Start insert minor children clause
+M.Guardians ${ Minor children clause}
+In the event that I am the sole surviving parent of minor children, I appoint ${main guardian}_________________ to serve as their Guardian. If s/he is unable or unwilling to serve, I appoint _${ alternate guardian}___________________ as Alternate Guardian. They will hold the assets until minor child   becomes a major.
+//end
+
+
+//Start insert optional conditions
+N. Optional Conditions
+1. ${ I have provided adequately for all dependents and no one has been left out }.
+2. ${ If any of the beneficiaries named in this will challenges this will by approaching any court, they will no longer be a beneficiary and their share will be passed on to ${ alternate beneficiary X }.
+3. ${ If any of the beneficiaries is unwilling to accept this legacy, their share will be passed on to ${ alternate beneficiary X}.
+4. ${ If any of the below beneficiaries do not survive me, their share will be passed on as below
+   ${Alternate beneficiary } to spouse
+${ alternate beneficiary } to child 1
+${ alternate beneficiary} to child 2
+${Alternate beneficiary } to child 3
+${ Alternate beneficiary} to beneficiary 1
+${ alternate beneficiary } to beneficiary 2
+${ alternate beneficiary} to accept disputed assets or unclaimed assets.
+E1.${Any nominations made for assets already will be held ${  valid , over and above the will } as the nominee will be the rightful owner of those assets .}
+OR
+E2.${ any nominations made already for assets will be held ${ invalid } and the nominee will be only the custodian of those assets. This is for assets other than Insurance policy proceeds, Debentures and stocks where the nominee, by law, will be the owner of those assets.
+1. IF expenses or creditors exceed the value provided , the executors will be at discretion to use any other property to settle the expenses.
+2. I have given unequal shares to my dependents because ${ insert reason}.
+//end
+
+
+//start signature clause
+O. Signature of Testator
+
+
+//end
+
+
+//start witnesses clause
+P. Witnesses
+We hereby attest that this Will has been signed by ${   } as ${his/her}  last Will at Bangalore in the joint presence of himself and us. The testator is in sound mind and made this Will without any coercion.
+
+
+
+
+Name, Signature of Witness (1)
+
+
+
+
+Name, Signature of Witness (2)
+
+//end

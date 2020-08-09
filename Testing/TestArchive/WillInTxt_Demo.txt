@@ -1,0 +1,35 @@
+<%def name='firstclause()' >
+I declare that I am in good health and possess a sound mind. This Will is made by me without any persuasion or coercion and out of my own independent decision only. This will has been drafted on my instructions and I have read and completely understood the contents of this will. After being satisfied, I have subscribed my signature to this last will and testament.
+</%def>
+<%
+# '#' indicates a python comment
+#Python variables can be created here
+LastName = 'Clark' #LastName is a python variables
+MoreData = 'I live in Australia.'
+%>
+
+WILL and Last testament
+
+A.General
+I, ${name},    residing at ${address} , ${religion} by religion, do hereby revoke all my previous Wills (or) Codicils and declare that this is my last Will for assets in India , which I make on this  date the   ${todays_date}.
+% if will_in_india == 'yes':
+ This will is solely in respect of my assets in India and should co- exist with wills made for assets outside India, irrespective of when those wills have been made.
+% endif
+${firstclause()}
+B.Personal details
+1.My date of birth is ${ dob } .
+% if PanNo:
+My Pan no is ${PanNo}.
+% endif
+% if aadharNo:
+My aadhar no is ${aadharNo}
+% endif
+
+My full name is ${name} ${LastName}
+
+##This is a single line comment
+##For loop must be added over here
+<%doc>
+This is a multiline comment
+and will not be printed
+</%doc>
