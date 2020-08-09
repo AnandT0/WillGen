@@ -1,0 +1,2 @@
+# WillGen
+Automatically generate wills
